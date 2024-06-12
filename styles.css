@@ -1,0 +1,265 @@
+body {
+  font-family: "Plus Jakarta Sans";
+  color: black;
+}
+
+#header {
+  padding: 60px 120px 60px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:sticky;
+  top: 0;
+  backdrop-filter: blur(4px);
+}
+
+.logo-sign {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  margin: 48px;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 12px 20px 12px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+#contact-me {
+  width: 132px;
+  height: 42px;
+}
+
+#contact-me:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.page-section {
+  padding: 60px 120px 60px 120px;
+  text-align: center;
+  align-items: center;
+}
+
+#section-separate-1 {
+  border: red;
+}
+
+.main-image {
+  width: 1040px;
+  height: 360px;
+  padding-bottom: 40px;
+  border-radius: 24px;
+}
+
+h1,
+h2 {
+  display: inline;
+}
+
+h1 {
+  font-size: 78px;
+}
+
+h2 {
+  font-size: 60px;
+  padding: 0 0 60px 0;
+}
+
+p {
+  font-size: 20px;
+  padding: 40px 0 40px 0;
+}
+
+#get-touch {
+  width: 222px;
+  height: 63px;
+}
+
+.cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 325px;
+  height: auto;
+  margin: 32px;
+  border-radius: 24px;
+  background-color: rgb(231, 230, 230);
+}
+
+.card-image {
+  width: 325px;
+  height: 280px;
+  border-radius: 24px;
+}
+
+.inside-card {
+  height: 174px;
+  padding: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.button-learn {
+  padding: 12px 20px 12px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  width: 132px;
+  /* not working rule for visible only on hover */
+  /* visibility: hidden; */
+}
+
+#proj-2 {
+  background-color: blueviolet;
+}
+
+/* not working rule for visible only on hover */
+/* #button-learn:hover {
+  visibility: visible;
+  padding: 12px 20px 12px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  width: 132px;
+} */
+
+table {
+  margin: 60px 120px 0px 120px;
+  display: flex;
+  justify-content: center;
+}
+
+#step-separate {
+  text-align: left;
+}
+
+#number-circle {
+  font-size: 22px;
+  border-radius: 50%;
+  width: 34px;
+  height: px;
+  padding: 5px;
+  border: 2px solid;
+  text-align: center;
+}
+
+#step-describe {
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 20px;
+  border-top: 1px solid;
+}
+
+#name,
+#email {
+  display: inline;
+  width: 242px;
+  height: 45px;
+  padding-left: 10px;
+  margin: 0px 20px 40px 0px;
+  background-color: #383636;
+}
+
+#message {
+  width: 512px;
+  height: 104px;
+  background-color: #383636;
+  margin-bottom: 40px;
+  padding: 10px 0px 0px 10px;
+  display: flex;
+}
+
+#button-sendmessage {
+  padding: 14px 28px 20px 28px;
+  border-radius: 12px;
+  font-size: 20px;
+  width: 198px;
+  color: #333;
+}
+
+#footer {
+  padding: 60px 120px 60px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.div-with-bg {
+  width: 500px;
+    background-image: url(img/fruit.png);
+    height: 600px;
+    background-position-x: 121px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.text-example {
+  text-align: left;
+  font-size: 15px;
+  margin: 74px;
+  padding: 20px;
+}
+
+.item-heading {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  padding: 0 0px 20px 0;
+}
+
+.item-number {
+  font-size: 22px;
+  border-radius: 50%;
+  width: 34px;
+  padding: 5px;
+  border: 2px solid;
+  text-align: center;
+}
+
+.item-para {
+  padding: 0;
+  text-align: left;
+}
+
+.work-process-item {
+  width: 100%;
+  max-width: 1016px;
+  margin: 0 auto;
+}
+
+textarea, input {
+  color: #fff;
+}
